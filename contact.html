@@ -4,65 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Delicious</title>
     <script src="https://kit.fontawesome.com/5304873268.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles.css/style.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <!-- Header starts -->
-    <header>
+    <header class="header__contact">
         <!-- Wrapper starts -->
         <div class="header__wrapper">
             <h1>Delicious</h1>
             <!-- Nav starts-->
             <nav class="header__nav">
                 <ul>
-                    <li class="nav__link">
-                        <a href="#">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            Recipes
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            Nutrition
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            Shop
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            Contact
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            <i class="fas fa-shopping-bag"></i>
-                        </a>
-                    </li>
-                    <li class="nav__link">
-                        <a href="#">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </li>
+                    <li class="nav__link"><a href="./index.html">Home</a></li>
+                    <li class="nav__link"><a href="#">About</a></li>
+                    <li class="nav__link"><a href="#">Recipes</a></li>
+                    <li class="nav__link"><a href="#">Nutrition</a></li>
+                    <li class="nav__link"><a href="./blog.html">Blog</a></li>
+                    <li class="nav__link"><a href="#">Shop</a></li>
+                    <li class="nav__link"><a href="./contact.html">Contact</a></li>
+                    <li class="nav__link"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="nav__link"><a href="#"><i class="fas fa-search"></i></a></li>
                 </ul>
                 <button class="burger__menu">
                     <i class="fas fa-bars"></i>
@@ -74,59 +39,51 @@
 
     </main>
 
-        <!-- Footer starts -->
+    <!-- Footer starts -->
     <footer class="page__footer">
-        <!-- begin footer wrapper -->
+        <!-- Footer wrapper -->
         <div class="footer__wrapper">
+            <!-- Footer contact section starts -->
             <div class="footer__contact__info">
                 <h3 class="footer__heading">Delicious</h3>
-                <p class="body__text">
-                    Soko radicchio bunya nuts gram dulsesilver best parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage.
+                <p class="footer__text">
+                    Soko radicchio bunya nuts gram dulse silver best parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage.
                 </p>
-                <ul class="footer__address">
-                    <li class="footer__divider"><hr /></li>
-                    <li class="address__item">A delicious restaurant</li>
-                    <li class="address__item">Toronto, Ontario</li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="address__item">yum@food.com</li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="address__item">+1 234 567 8910</li>
-                </ul>
+                <p class="address__item no__border">A delicious restaurant</p>
+                <p class="address__item">Toronto, Ontario</p>
+                <p class="address__item">yum@food.com</p>
+                <p class="address__item no__border">+1 234 567 8910</p>
             </div>
-            <div class="blog__posts__list">
-                <h3 class="footer__heading">Recent Posts</h3>
-                <ul>
-                    <li class="blog__post"><a href="#">Beetroot water spinach okra water</a></li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="blog__post"><a href="#">Chestnut ricebean pea catsear courgette</a></li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="blog__post"><a href="#">Summer purslane spinach arugula pea</a></li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="blog__post"><a href="#">Tatsol aubergine spring onion bush</a></li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="blog__post"><a href="#">Tomato kale radicchio turnip chicory</a></li>
-                    <li class="footer__divider"><hr /></li>
-                    <li class="blog__post"><a href="#">Salsify pea sprouts fava bean</a></li>
-                </ul>
+            <!-- Footer blog post section starts -->
+            <div class="footer__blog__posts">
+                <h4 class="footer__heading">Recent Posts</h4>
+                <div class="blog__posts__list">
+                    <a href="#" class="blog__post">Beetroot water spinach okra water</a>
+                    <a href="#" class="blog__post">Chestnut ricebean pea catsear courgette</a>
+                    <a href="#" class="blog__post">Summer purslane spinach arugula pea</a>
+                    <a href="#" class="blog__post">Tatsol aubergine spring onion bush</a>
+                    <a href="#" class="blog__post">Tomato kale radicchio turnip chicory</a>
+                    <a href="#" class="blog__post no__border">Salsify pea sprouts fava bean</a>
+                </div>
             </div>
+            <!-- Footer subscribe section starts -->
             <div class="footer__subscribe">
-                <h3 class="footer__heading">Subscribe Now</h3>
-                <p class="body__text">
+                <h4 class="footer__heading">Subscribe Now</h4>
+                <p class="footer__text">
                 Get all of our newest recipes immediately to your inbox!
                 </p>
                 <div class="footer__form">
-                    <!-- begin subscribe form -->
+                    <!-- Subscribe form starts -->
                     <form action="#" method="#">
                         <input type="text" placeholder="Enter your email">
-                        <button class="submit">&#8594;</button>
+                        <button class="submit">&#10142;</button>
                     </form>
                 </div>
                 <div class="footer__social">
-                    <hr />
                     <ul class="social__link__list">
-                        <li class="social__link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li class="social__link"><a href="#"></a><i class="fab fa-twitter"></i></a></li>
-                        <li class="social__link"><a href="#"></a><i class="fab fa-instagram"></i></a></li>
+                        <li class="social__link"><a href="#" class="no__border"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="social__link"><a href="#" class="no__border"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social__link"><a href="#" class="no__border"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div> 

@@ -1,0 +1,30 @@
+.blog__wrapper {
+    max-width: 1800px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.blog__post {
+    margin-top: 150px;
+}
+
+.author__bio {
+    display: flex;
+}
+
+.related__posts__photos {
+    display: flex;
+
+    .related__post {
+        width: calc(100% / 3);
+        margin: 0 1.2%;
+    }
+
+    .no__right__margin {
+        margin-right: 0;
+    }
+
+    .post__img {
+        width: 100%;
+    }
+}

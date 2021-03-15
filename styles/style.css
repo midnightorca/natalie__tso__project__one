@@ -234,3 +234,425 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 125%;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header__index {
+  height: 780px;
+  background-image: url("../assets/home/home__1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__blog {
+  height: 480px;
+  background-image: url("../assets/blog/blog__1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__contact {
+  height: 480px;
+  background-image: url("../assets/contact/contact__1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__wrapper {
+  max-width: 1800px;
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+.header__nav a {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.header__nav {
+  padding-top: 17px;
+  margin-right: -20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 12px;
+}
+
+ul li a:hover {
+  color: #64A604;
+}
+
+.burger__menu {
+  display: none;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.main__recipes,
+.main__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h3 {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 0.58rem;
+  color: #999999;
+  line-height: 2;
+}
+
+hr {
+  width: 60px;
+  color: #64A604;
+  margin-bottom: 40px;
+  border: 2px solid #64A604;
+}
+
+.recipes__text {
+  width: 50%;
+  text-align: center;
+}
+
+.recipes__text h3 {
+  margin-top: -10px;
+}
+
+.recipes__text p {
+  width: 66%;
+  margin: 20px auto 40px;
+}
+
+.recipes__text a {
+  background-color: #64A604;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.55rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 2px solid #64A604;
+}
+
+.recipes__text a:hover {
+  color: #64A604;
+  background-color: white;
+}
+
+.recipes__img,
+.menu__img {
+  width: 50%;
+}
+
+.main__menu {
+  background-color: #F2F2F2;
+}
+
+.menu__text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5% 5% 0;
+}
+
+.menu__text div {
+  width: 40%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.menu__text div i {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #333333;
+  left: -50px;
+}
+
+.menu__text div h4 {
+  font-size: 0.68rem;
+}
+
+.restaurants__wrapper {
+  max-width: 1800px;
+  width: 38vw;
+  margin: 220px auto 120px;
+  text-align: center;
+  position: relative;
+}
+
+.restaurants__wrapper .restaurants__img__sticker {
+  position: absolute;
+  width: 165px;
+  top: -94px;
+  right: 22px;
+}
+
+.restaurants__wrapper .restaurants__img {
+  width: 420px;
+  margin-bottom: 50px;
+}
+
+.restaurants__wrapper p {
+  margin-top: -10px;
+}
+
+.main__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__gallery img {
+  width: calc(100% / 3);
+}
+
+.main__reviews {
+  background-color: #DDED9A;
+}
+
+.reviews__wrapper {
+  max-width: 1800px;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.reviews__wrapper p {
+  font-size: 1rem;
+  color: #2E2E2E;
+  font-style: italic;
+  line-height: 1.5;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.reviews__wrapper a {
+  color: #EEF6D1;
+  font-size: 1rem;
+  margin: 0 15px;
+}
+
+.reviews__wrapper a:hover {
+  color: white;
+}
+
+.blog__wrapper {
+  max-width: 1800px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.blog__post {
+  margin-top: 150px;
+}
+
+.author__bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.related__posts__photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.related__posts__photos .related__post {
+  width: calc(100% / 3);
+  margin: 0 1.2%;
+}
+
+.related__posts__photos .no__right__margin {
+  margin-right: 0;
+}
+
+.related__posts__photos .post__img {
+  width: 100%;
+}
+
+footer {
+  background-color: #2E2E2E;
+}
+
+footer h3 {
+  color: #64A604;
+  font-size: 1.5rem;
+}
+
+footer h4 {
+  color: #F6F6F6;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 0.53rem;
+  letter-spacing: 0.5px;
+}
+
+footer .footer__text {
+  padding-bottom: 15px;
+}
+
+footer a {
+  display: block;
+  margin: 0;
+  font-size: 0.58rem;
+  font-weight: 400;
+  color: #999999;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #474747;
+}
+
+footer a:hover {
+  color: #64A604;
+}
+
+footer form {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #474747;
+}
+
+footer input {
+  background-color: #535353;
+  color: #999999;
+  border: none;
+  font-size: 0.58rem;
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  width: 77%;
+  padding: 12px 10px 9px 10px;
+  margin: 0;
+}
+
+footer button {
+  background-color: #64A604;
+  color: #F6F6F6;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  padding: 7px 0px;
+  margin: 5px 0 0 -5px;
+}
+
+.footer__wrapper {
+  max-width: 1800px;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__contact__info,
+.footer__blog__posts,
+.footer__subscribe {
+  width: 24%;
+  margin: 0 6.3%;
+}
+
+.footer__contact__info p,
+.blog__posts__list p {
+  border-bottom: 1px solid #474747;
+}
+
+a.no__border,
+p.no__border {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.footer__social ul {
+  margin-top: 5px;
+}
+
+.blog__subscribe {
+  padding-top: 60px;
+}
+
+.social__link a {
+  margin: 5px 5px;
+}
+
+.social__link a i {
+  color: #F6F6F6;
+  font-size: 0.7rem;
+}
+
+.copyright {
+  max-width: 1800px;
+  width: 100%;
+  background-color: #252525;
+  padding: 10px 0;
+}
+
+.copyright p {
+  margin-left: 19vw;
+  font-family: "Raleway", sans-serif;
+}
+
+.copyright span {
+  text-transform: uppercase;
+  color: #64A604;
+}

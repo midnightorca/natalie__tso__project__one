@@ -1,0 +1,157 @@
+.main__recipes,
+.main__menu {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-size: 0.58rem;
+    color: $p__text;
+    line-height: 2;
+}
+
+hr {
+    width: 60px;
+    color: $accent__1;
+    margin-bottom: 40px;
+    border: 2px solid $accent__1;
+}
+
+.recipes__text {
+    width: 50%;
+    text-align: center;
+
+    h3 {
+        margin-top: -10px;
+    }
+
+    p {
+        width: 66%;
+        margin: 20px auto 40px;
+    }
+
+    a {
+        background-color: $accent__1;
+        color: white;
+        font-family: "Raleway", sans-serif;
+        padding: 15px 35px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 0.55rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border: 2px solid $accent__1;
+        
+        &:hover {
+            color: $accent__1;
+            background-color: white;
+        }
+    }
+}
+
+.recipes__img,
+.menu__img {
+    width: 50%;
+}
+
+.main__menu {
+    background-color: $primary__2;
+}
+.menu__text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 5% 0;
+    
+    div {
+        width: 40%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        position: relative;
+
+        i {
+            position: absolute;
+            font-size: 1.5rem;
+            color: $primary__3;
+            left: -50px;
+        }
+
+        h4 {
+            font-size: 0.68rem;
+        }
+
+    }
+
+}
+
+.restaurants__wrapper {
+    max-width: 1800px;
+    width: 38vw;
+    margin: 220px auto 120px;
+    text-align: center;
+    position: relative;
+
+    .restaurants__img__sticker {
+        position: absolute;
+        width: 165px;
+        top: -94px;
+        right: 22px;
+    }
+
+    .restaurants__img {
+        width: 420px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        margin-top: -10px;
+    }
+    
+}
+
+.main__gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: calc(100% / 3);
+    }
+}
+
+.main__reviews {
+    background-color: $accent__2;
+}
+
+.reviews__wrapper {
+    max-width: 1800px;
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    p {
+        font-size: 1rem;
+        color: $primary__4;
+        font-style: italic;
+        line-height: 1.5;
+        padding-bottom: 60px;
+        position: relative;
+    }
+
+    a {
+        color: $accent__3;
+        font-size: 1rem;
+        margin: 0 15px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+}

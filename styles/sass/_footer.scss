@@ -1,0 +1,130 @@
+footer {
+    background-color: $primary__4;
+
+    h3 {
+        color: $accent__1;
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        color: $primary__1;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        margin: 0;
+        padding: 5px 0;
+        font-size: 0.53rem;
+        letter-spacing: 0.5px;
+    }
+
+    .footer__text {
+        padding-bottom: 15px;
+    }
+
+    a {
+        display: block;
+        margin: 0;
+        font-size: 0.58rem;
+        font-weight: 400;
+        color: $p__text;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid $accent__5;
+
+        &:hover {
+            color: $accent__1;
+        }
+    }
+
+    form {
+        padding-bottom: 20px;
+        border-bottom: 1px solid $accent__5;
+    }
+
+    input {
+        background-color: $accent__6;
+        color: $p__text;
+        border: none;
+        font-size: 0.58rem;
+        font-family: "Lora", sans-serif;
+        font-style: italic;
+        width: 77%;
+        padding: 12px 10px 9px 10px;
+        margin: 0;
+    } 
+    
+    button {
+        background-color: $accent__1;
+        color: $primary__1;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+        padding: 7px 0px;
+        margin: 5px 0 0 -5px;
+    }
+}
+
+.footer__wrapper {
+    max-width: 1800px;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+}
+
+.footer__contact__info,
+.footer__blog__posts,
+.footer__subscribe {
+    width: 24%;
+    margin: 0 6.3%;
+}
+
+.footer__contact__info p,
+.blog__posts__list p {
+    border-bottom: 1px solid $accent__5;
+
+}
+a.no__border,
+p.no__border {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.footer__social ul {
+    margin-top: 5px;
+}
+
+.blog__subscribe {
+    padding-top: 60px;
+}
+
+.social__link a {
+    margin: 5px 5px;
+
+    i {
+    color: $primary__1;
+    font-size: 0.7rem;
+    }
+}
+
+.copyright {
+    max-width: 1800px;
+    width: 100%;
+    background-color: $accent__4;
+    padding: 10px 0;
+
+    p {
+        margin-left: 19vw;
+        font-family: "Raleway", sans-serif;
+    }
+
+    span {
+        text-transform: uppercase;
+        color: $accent__1;
+    }
+}
