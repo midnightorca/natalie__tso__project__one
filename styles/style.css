@@ -324,206 +324,6 @@ h1 {
   font-weight: 600;
 }
 
-.main__recipes,
-.main__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-h3 {
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-family: "Lora", serif;
-  font-size: 0.58rem;
-  color: #999999;
-  line-height: 2;
-}
-
-hr {
-  width: 60px;
-  color: #64A604;
-  margin-bottom: 40px;
-  border: 2px solid #64A604;
-}
-
-.recipes__text {
-  width: 50%;
-  text-align: center;
-}
-
-.recipes__text h3 {
-  margin-top: -10px;
-}
-
-.recipes__text p {
-  width: 66%;
-  margin: 20px auto 40px;
-}
-
-.recipes__text a {
-  background-color: #64A604;
-  color: white;
-  font-family: "Raleway", sans-serif;
-  padding: 15px 35px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.55rem;
-  letter-spacing: 1px;
-  font-weight: 500;
-  border: 2px solid #64A604;
-}
-
-.recipes__text a:hover {
-  color: #64A604;
-  background-color: white;
-}
-
-.recipes__img,
-.menu__img {
-  width: 50%;
-}
-
-.main__menu {
-  background-color: #F2F2F2;
-}
-
-.menu__text {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 5% 5% 0;
-}
-
-.menu__text div {
-  width: 40%;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  position: relative;
-}
-
-.menu__text div i {
-  position: absolute;
-  font-size: 1.5rem;
-  color: #333333;
-  left: -50px;
-}
-
-.menu__text div h4 {
-  font-size: 0.68rem;
-}
-
-.restaurants__wrapper {
-  max-width: 1800px;
-  width: 38vw;
-  margin: 220px auto 120px;
-  text-align: center;
-  position: relative;
-}
-
-.restaurants__wrapper .restaurants__img__sticker {
-  position: absolute;
-  width: 165px;
-  top: -94px;
-  right: 22px;
-}
-
-.restaurants__wrapper .restaurants__img {
-  width: 420px;
-  margin-bottom: 50px;
-}
-
-.restaurants__wrapper p {
-  margin-top: -10px;
-}
-
-.main__gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.main__gallery img {
-  width: calc(100% / 3);
-}
-
-.main__reviews {
-  background-color: #DDED9A;
-}
-
-.reviews__wrapper {
-  max-width: 1800px;
-  width: 50vw;
-  text-align: center;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
-.reviews__wrapper p {
-  font-size: 1rem;
-  color: #2E2E2E;
-  font-style: italic;
-  line-height: 1.5;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-.reviews__wrapper a {
-  color: #EEF6D1;
-  font-size: 1rem;
-  margin: 0 15px;
-}
-
-.reviews__wrapper a:hover {
-  color: white;
-}
-
-.blog__wrapper {
-  max-width: 1800px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.blog__post {
-  margin-top: 150px;
-}
-
-.author__bio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.related__posts__photos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.related__posts__photos .related__post {
-  width: calc(100% / 3);
-  margin: 0 1.2%;
-}
-
-.related__posts__photos .no__right__margin {
-  margin-right: 0;
-}
-
-.related__posts__photos .post__img {
-  width: 100%;
-}
-
 footer {
   background-color: #2E2E2E;
 }
@@ -531,6 +331,7 @@ footer {
 footer h3 {
   color: #64A604;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 footer h4 {
@@ -538,6 +339,7 @@ footer h4 {
   font-size: 0.7rem;
   letter-spacing: 1px;
   margin-bottom: 40px;
+  font-weight: 600;
 }
 
 footer p {
@@ -621,6 +423,7 @@ a.no__border,
 p.no__border {
   border-bottom: none;
   padding-bottom: 0;
+  margin-bottom: -5px;
 }
 
 .footer__social ul {
@@ -655,4 +458,449 @@ p.no__border {
 .copyright span {
   text-transform: uppercase;
   color: #64A604;
+}
+
+.main__recipes,
+.main__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h3 {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 0.58rem;
+  color: #858585;
+  line-height: 2;
+}
+
+hr {
+  width: 60px;
+  color: #64A604;
+  margin-bottom: 40px;
+  border: 2px solid #64A604;
+}
+
+.recipes__text {
+  width: 50%;
+  text-align: center;
+}
+
+.recipes__text h3 {
+  margin-top: -10px;
+}
+
+.recipes__text p {
+  width: 66%;
+  margin: 20px auto 40px;
+}
+
+.recipes__text a {
+  background-color: #64A604;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.55rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 2px solid #64A604;
+}
+
+.recipes__text a:hover {
+  color: #64A604;
+  background-color: white;
+}
+
+.recipes__img,
+.menu__img {
+  width: 50%;
+}
+
+.main__menu {
+  background-color: #F2F2F2;
+}
+
+.menu__text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5% 5% 0;
+}
+
+.menu__text div {
+  width: 40%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.menu__text div i {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #333333;
+  left: -50px;
+}
+
+.menu__text div h4 {
+  font-size: 0.68rem;
+}
+
+.menu__text div p {
+  color: #999999;
+}
+
+.restaurants__wrapper {
+  max-width: 1800px;
+  width: 38vw;
+  margin: 220px auto 120px;
+  text-align: center;
+  position: relative;
+}
+
+.restaurants__wrapper .restaurants__img__sticker {
+  position: absolute;
+  width: 165px;
+  top: -94px;
+  right: 22px;
+}
+
+.restaurants__wrapper .restaurants__img {
+  width: 420px;
+  margin-bottom: 50px;
+}
+
+.restaurants__wrapper p {
+  margin-top: -10px;
+}
+
+.main__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__gallery img {
+  width: calc(100% / 3);
+}
+
+.main__reviews {
+  background-color: #DDED9A;
+}
+
+.reviews__wrapper {
+  max-width: 1800px;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.reviews__wrapper p {
+  font-size: 1rem;
+  color: #2E2E2E;
+  font-style: italic;
+  line-height: 1.5;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.reviews__wrapper p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f10d";
+  font-size: 37px;
+  font-weight: 900;
+  color: #EEF6D1;
+  position: absolute;
+  top: -15px;
+  left: -80px;
+  font-style: normal;
+}
+
+.reviews__wrapper p::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f10e";
+  font-size: 37px;
+  font-weight: 900;
+  color: #EEF6D1;
+  position: absolute;
+  bottom: 70px;
+  right: -80px;
+  font-style: normal;
+}
+
+.reviews__wrapper a {
+  color: #EEF6D1;
+  font-size: 1rem;
+  margin: 0 15px;
+}
+
+.reviews__wrapper a:hover {
+  color: white;
+}
+
+.blog__wrapper {
+  max-width: 1800px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.blog__wrapper hr {
+  width: 100%;
+  color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+}
+
+.blog__wrapper a {
+  text-decoration: none;
+}
+
+.blog__wrapper h5 {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  color: #2E2E2E;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.main__blog__post {
+  margin-top: 150px;
+}
+
+.main__blog__post h2 {
+  font-weight: 600;
+}
+
+.main__blog__post .main__blog__date {
+  font-family: "Raleway", sans-serif;
+  color: #2E2E2E;
+  margin-top: -3px;
+}
+
+.main__blog__post .main__blog__date a {
+  color: #2E2E2E;
+}
+
+.main__blog__post a {
+  color: #858585;
+}
+
+.main__blog__post .blog__body {
+  padding-top: 10px;
+  line-height: 1.9;
+}
+
+.main__blog__post .blog__last {
+  padding-bottom: 12px;
+}
+
+.main__blog__post .blog__tags {
+  margin-top: -30px;
+}
+
+.main__blog__post .blog__links {
+  margin-top: -20px;
+}
+
+.main__blog__post h5 {
+  display: inline-block;
+}
+
+.main__blog__post .blog__tag {
+  font-size: 0.6rem;
+  letter-spacing: 0.5px;
+  color: #999999;
+}
+
+.main__blog__post .fab {
+  margin: 0 10px;
+  font-size: 0.7rem;
+  color: #999999;
+}
+
+.author__bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.author__bio img {
+  width: 15%;
+}
+
+.author__bio .bio__text {
+  width: 82%;
+  background-color: #F6F6F6;
+  margin-left: 3%;
+  padding: 10px 30px;
+}
+
+.related__posts__photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.related__posts__photos .related__post {
+  width: calc(100% / 3);
+  margin: 0 1.2%;
+}
+
+.related__posts__photos .no__left__margin {
+  margin-left: 0;
+}
+
+.related__posts__photos .no__right__margin {
+  margin-right: 0;
+}
+
+.related__posts__photos .post__img {
+  width: 100%;
+}
+
+.related__posts__photos h5 {
+  font-size: 0.72rem;
+  margin-top: 15px;
+}
+
+.related__posts__photos .blog__date {
+  font-size: 0.5rem;
+  color: #999999;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.related__posts__photos .blog__date a {
+  color: #858585;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.post__comments {
+  margin-bottom: 40px;
+}
+
+.post__comments h5 {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.post__comments .user__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.post__comments img {
+  width: 60px;
+  height: 60px;
+}
+
+.post__comments .comment__text {
+  margin-left: 2.5%;
+  background-color: #EFEFEF;
+  padding: 15px;
+}
+
+.post__comments h6 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 0.58rem;
+  color: #2E2E2E;
+  padding-bottom: 4px;
+}
+
+.post__comments h6 span {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 0.55rem;
+}
+
+.post__comments p {
+  color: #2E2E2E;
+  font-size: 0.53rem;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.post__comments .comment__timestamp {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 600;
+  padding-top: 3px;
+}
+
+.comment__form {
+  margin-bottom: 150px;
+}
+
+.comment__form p {
+  font-style: italic;
+}
+
+.comment__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #999999;
+}
+
+.comment__form form input {
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 15px;
+  border: 2px solid #F2F2F2;
+  font-family: "Lora", serif;
+  font-size: 0.58rem;
+  padding: 10px;
+}
+
+.comment__form form input[name="website"] {
+  margin-right: 0;
+}
+
+.comment__form form textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border: 2px solid #F2F2F2;
+  font-family: "Lora", serif;
+  font-size: 0.58rem;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.comment__form form button {
+  border: 1px solid #64A604;
+  background-color: #64A604;
+  color: #F6F6F6;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 15px 30px 15px 20px;
 }

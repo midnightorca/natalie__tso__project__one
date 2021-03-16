@@ -2,22 +2,109 @@
     max-width: 1800px;
     width: 60%;
     margin: 0 auto;
+
+    hr {
+        width: 100%;
+        color: $primary__2;
+        border: 1px solid $primary__2;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h5 {
+        text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
+        color: $primary__4;
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
 }
 
-.blog__post {
+.main__blog__post {
     margin-top: 150px;
+    
+    h2 {
+        font-weight: 600;
+    }
+
+    .main__blog__date {
+        font-family: "Raleway", sans-serif;
+        color: $primary__4;
+        margin-top: -3px;
+        
+        a {
+            color: $primary__4;
+        }
+    }
+
+    a {
+        color: $p__text__2;
+    }
+    
+    .blog__body {
+        padding-top: 10px;
+        line-height: 1.9;
+    }
+
+    .blog__last {
+        padding-bottom: 12px;
+    }
+
+    .blog__tags {
+        margin-top: -30px;
+    }
+
+    .blog__links {
+        margin-top: -20px;
+    }
+
+    h5 {
+        display: inline-block;
+    }
+
+    .blog__tag {
+        font-size: 0.6rem;
+        letter-spacing: 0.5px;
+        color: $p__text__1;
+    }
+
+    .fab {
+        margin: 0 10px;
+        font-size: 0.7rem;
+        color: $p__text__1;
+    }
 }
 
 .author__bio {
     display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+
+    img {
+        width: 15%;
+    }
+
+    .bio__text {
+        width: 82%;
+        background-color: $primary__1;
+        margin-left: 3%;
+        padding: 10px 30px;
+    }
 }
 
 .related__posts__photos {
     display: flex;
+    width: 100%;
 
     .related__post {
         width: calc(100% / 3);
         margin: 0 1.2%;
+    }
+
+    .no__left__margin {
+        margin-left: 0;
     }
 
     .no__right__margin {
@@ -26,5 +113,129 @@
 
     .post__img {
         width: 100%;
+    }
+
+    h5 {
+        font-size: 0.72rem;
+        margin-top: 15px;
+    }
+
+    .blog__date {
+        font-size: 0.5rem;
+        color: $p__text__1;
+        margin-top: -20px;
+        padding-bottom: 10px;
+
+        a {
+            color: $p__text__2;
+            font-family: "Raleway", sans-serif;
+            font-weight: 600;
+        }
+    }
+}
+
+.post__comments {
+    margin-bottom: 40px;
+
+    h5 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    }
+
+    .user__comment {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .comment__text {
+        margin-left: 2.5%;
+        background-color: $primary__5;
+        padding: 15px;
+    }
+
+    h6 {
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 0.58rem;
+        color: $primary__4;
+        padding-bottom: 4px;
+
+        span {
+            font-family: "Lora", serif;
+            font-weight: 400;
+            font-size: 0.55rem;
+        }
+    }
+
+    p {
+        color: $primary__4;
+        font-size: 0.53rem;
+        margin: 0;
+        line-height: 1.7;
+    }
+
+    .comment__timestamp {
+        font-family: "Raleway", sans-serif;
+        font-size: 0.5rem;
+        font-weight: 600;
+        padding-top: 3px;
+    }
+
+}
+
+.comment__form {
+    margin-bottom: 150px;
+
+    p {
+        font-style: italic;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: $p__text__1;
+
+        input {
+            width: 32%;
+            margin-right: 2%;
+            margin-bottom: 15px;
+            border: 2px solid $primary__2;
+            font-family: "Lora", serif;
+            font-size: 0.58rem;
+            padding: 10px;
+        }
+
+        input[name="website"] {
+            margin-right: 0;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            resize: none;
+            border: 2px solid $primary__2;
+            font-family: "Lora", serif;
+            font-size: 0.58rem;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            border: 1px solid $accent__1;
+            background-color: $accent__1;
+            color: $primary__1;
+            text-transform: uppercase;
+            font-family: "Raleway", sans-serif;
+            font-size: 0.6rem;
+            font-weight: 600;
+            padding: 15px 30px 15px 20px;
+        }
     }
 }

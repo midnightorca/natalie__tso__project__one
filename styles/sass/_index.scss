@@ -12,7 +12,7 @@ h3 {
 p {
     font-family: "Lora", serif;
     font-size: 0.58rem;
-    color: $p__text;
+    color: $p__text__2;
     line-height: 2;
 }
 
@@ -86,6 +86,10 @@ hr {
             font-size: 0.68rem;
         }
 
+        p {
+            color: $p__text__1;
+        }
+
     }
 
 }
@@ -142,6 +146,30 @@ hr {
         line-height: 1.5;
         padding-bottom: 60px;
         position: relative;
+    }
+
+    p::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f10d";
+        font-size: 37px;
+        font-weight: 900;
+        color: $accent__3;
+        position: absolute;
+        top: -15px;
+        left: -80px;
+        font-style: normal;
+    }
+
+    p::after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f10e";
+        font-size: 37px;
+        font-weight: 900;
+        color: $accent__3;
+        position: absolute;
+        bottom: 70px;
+        right: -80px;
+        font-style: normal;
     }
 
     a {
