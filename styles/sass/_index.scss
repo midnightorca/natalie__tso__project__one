@@ -37,15 +37,14 @@ hr {
     }
 
     a {
+        @include font(0.55rem, 500);
         background-color: $accent__1;
         color: white;
         font-family: "Raleway", sans-serif;
         padding: 15px 35px;
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 0.55rem;
         letter-spacing: 1px;
-        font-weight: 500;
         border: 2px solid $accent__1;
         
         &:hover {
@@ -149,10 +148,9 @@ hr {
     }
 
     p::before {
+        @include font(1.85rem, 900);
         font-family: "Font Awesome 5 Free";
         content: "\f10d";
-        font-size: 37px;
-        font-weight: 900;
         color: $accent__3;
         position: absolute;
         top: -15px;
@@ -161,10 +159,9 @@ hr {
     }
 
     p::after {
+        @include font(1.85rem, 900);
         font-family: "Font Awesome 5 Free";
         content: "\f10e";
-        font-size: 37px;
-        font-weight: 900;
         color: $accent__3;
         position: absolute;
         bottom: 70px;

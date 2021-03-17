@@ -1,22 +1,19 @@
 .header__index {
     height: 780px;
     background-image: url("../assets/home/home__1.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include header__img;
 }
 
 .header__blog {
     height: 480px;
     background-image: url("../assets/blog/blog__1.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include header__img;
 }
 
 .header__contact {
     height: 480px;
     background-image: url("../assets/contact/contact__1.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    @include header__img;
 }
 
 .header__wrapper {
@@ -48,9 +45,8 @@ ul {
     li {
         display: inline-block;
         a {
+            @include font(0.7rem, 600);
             text-decoration: none;
-            font-size: 0.7rem;
-            font-weight: 600;
             margin: 0 12px;
 
             &:hover {

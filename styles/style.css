@@ -742,6 +742,9 @@ hr {
 
 .author__bio img {
   width: 15%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .author__bio .bio__text {
@@ -895,9 +898,10 @@ hr {
 }
 
 .comment__form form button {
-  border: 1px solid #64A604;
   background-color: #64A604;
   color: #F6F6F6;
+  border: none;
+  cursor: pointer;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 0.6rem;
@@ -973,11 +977,11 @@ hr {
 .contact__form button {
   background-color: white;
   color: #64A604;
+  border: none;
+  cursor: pointer;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-size: 0.58rem;
-  border: none;
-  cursor: pointer;
   font-weight: 600;
   letter-spacing: 0.5px;
 }

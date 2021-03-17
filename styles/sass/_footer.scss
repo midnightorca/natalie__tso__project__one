@@ -2,17 +2,15 @@ footer {
     background-color: $primary__4;
 
     h3 {
-        color: $accent__1;
-        font-size: 1.5rem;
-        font-weight: 600;
+        @include font(1.5rem, 600);
+        color: $accent__1
     }
 
     h4 {
+        @include font(0.7rem, 600);
         color: $primary__1;
-        font-size: 0.7rem;
         letter-spacing: 1px;
         margin-bottom: 40px;
-        font-weight: 600;
     }
 
     p {
@@ -27,11 +25,10 @@ footer {
     }
 
     a {
+        @include font(0.58rem, 400);
+        color: $p__text__1;
         display: block;
         margin: 0;
-        font-size: 0.58rem;
-        font-weight: 400;
-        color: $p__text__1;
         letter-spacing: 0.5px;
         text-decoration: none;
         padding-bottom: 10px;
@@ -49,11 +46,9 @@ footer {
     }
 
     input {
+        @include input(none, 0.58rem);
         background-color: $accent__6;
         color: $p__text__1;
-        border: none;
-        font-size: 0.58rem;
-        font-family: "Lora", sans-serif;
         font-style: italic;
         width: 77%;
         padding: 12px 10px 9px 10px;
@@ -61,10 +56,7 @@ footer {
     } 
     
     button {
-        background-color: $accent__1;
-        color: $primary__1;
-        border: none;
-        cursor: pointer;
+        @include button ($accent__1, $primary__1);
         width: 20%;
         padding: 7px 0px;
         margin: 5px 0 0 -5px;
