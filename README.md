@@ -26,3 +26,11 @@
 
 4. Commenting Style
     - Comments before each major section 
+
+5. Colors
+
+Hex code system will be used (in addition to any variable that may be assigned a hex code colour).
+
+6. Media Queries
+
+Use as needed.

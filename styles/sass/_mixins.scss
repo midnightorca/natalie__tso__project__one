@@ -1,6 +1,7 @@
 @mixin header__img {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 @mixin button ($bckgd, $clr, $fz) {

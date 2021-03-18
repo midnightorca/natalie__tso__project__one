@@ -56,7 +56,7 @@ footer {
     } 
     
     button {
-        @include button ($accent__1, $primary__1);
+        @include button($accent__1, $primary__1, 1rem);
         width: 20%;
         padding: 7px 0px;
         margin: 5px 0 0 -5px;

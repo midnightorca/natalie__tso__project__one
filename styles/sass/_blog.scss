@@ -156,6 +156,18 @@
         margin-left: 2.5%;
         background-color: $primary__5;
         padding: 15px;
+        position: relative;
+    }
+
+    .comment__text::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-color: $primary__5;
+        position: absolute;
+        transform: rotate(45deg);
+        left: -7px;
+        top: 10px;
     }
 
     h6 {
@@ -200,7 +212,7 @@
         color: $p__text__1;
 
         input {
-            @include input(2px solid $primary__2, 0,58rem);
+            @include input(2px solid $primary__2, 0.58rem);
             width: 32%;
             margin-right: 2%;
             margin-bottom: 15px;

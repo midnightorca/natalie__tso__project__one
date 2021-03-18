@@ -1,4 +1,6 @@
 .contact__main {
+    position: relative;
+
     h2 {
         @include font(1rem, 600);
         margin-top: 90px;
@@ -6,8 +8,9 @@
     }
     
     img {
-        width: 100%;
-        height: 500px;
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
         margin-bottom: -7px;
     }
 }
@@ -20,7 +23,7 @@
 
 .contact__form {
     width: 68%;
-    margin-right: 2%;
+    margin-right: 0;
     
     .contact__page__form {
         display: flex;
@@ -63,11 +66,12 @@
 }
 
 .contact__details {
-    width: 27%;
+    width: 30%;
     margin-left: 3%;
     background-color: $primary__2;
     position: relative;
     padding-bottom: 40px;
+    padding-left: 2%;
     
     h3 {
         @include font(0.7rem, 600);
@@ -103,13 +107,13 @@
     }
 }
 
-.contact__details::after {
+.contact__main::after {
     content: "";
     position: absolute;
     height: 100%;
-    width: 233%;
+    width: 20vw;
     background-color: $primary__2;
-    top: 0px;
-    left: -25px;
+    top: 0;
+    right: 0;
     z-index: -1;
 }

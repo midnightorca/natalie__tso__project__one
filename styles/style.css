@@ -253,6 +253,7 @@ ul {
   background-image: url("../assets/home/home__1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__blog {
@@ -260,6 +261,7 @@ ul {
   background-image: url("../assets/blog/blog__1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__contact {
@@ -267,6 +269,7 @@ ul {
   background-image: url("../assets/contact/contact__1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__wrapper {
@@ -306,9 +309,9 @@ ul li {
 }
 
 ul li a {
-  text-decoration: none;
   font-size: 0.7rem;
   font-weight: 600;
+  text-decoration: none;
   margin: 0 12px;
 }
 
@@ -329,17 +332,17 @@ footer {
 }
 
 footer h3 {
-  color: #64A604;
   font-size: 1.5rem;
   font-weight: 600;
+  color: #64A604;
 }
 
 footer h4 {
-  color: #F6F6F6;
   font-size: 0.7rem;
+  font-weight: 600;
+  color: #F6F6F6;
   letter-spacing: 1px;
   margin-bottom: 40px;
-  font-weight: 600;
 }
 
 footer p {
@@ -354,11 +357,11 @@ footer .footer__text {
 }
 
 footer a {
-  display: block;
-  margin: 0;
   font-size: 0.58rem;
   font-weight: 400;
   color: #999999;
+  display: block;
+  margin: 0;
   letter-spacing: 0.5px;
   text-decoration: none;
   padding-bottom: 10px;
@@ -376,11 +379,11 @@ footer form {
 }
 
 footer input {
+  border: none;
+  font-family: "Lora", sans-serif;
+  font-size: 0.58rem;
   background-color: #535353;
   color: #999999;
-  border: none;
-  font-size: 0.58rem;
-  font-family: "Lora", sans-serif;
   font-style: italic;
   width: 77%;
   padding: 12px 10px 9px 10px;
@@ -390,8 +393,12 @@ footer input {
 footer button {
   background-color: #64A604;
   color: #F6F6F6;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
   width: 20%;
   padding: 7px 0px;
   margin: 5px 0 0 -5px;
@@ -460,14 +467,19 @@ p.no__border {
   color: #64A604;
 }
 
-.main__recipes,
-.main__menu {
+.main__recipes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h3 {
@@ -504,15 +516,15 @@ hr {
 }
 
 .recipes__text a {
+  font-size: 0.55rem;
+  font-weight: 500;
   background-color: #64A604;
   color: white;
   font-family: "Raleway", sans-serif;
   padding: 15px 35px;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 0.55rem;
   letter-spacing: 1px;
-  font-weight: 500;
   border: 2px solid #64A604;
 }
 
@@ -526,8 +538,10 @@ hr {
   width: 50%;
 }
 
-.main__menu {
-  background-color: #F2F2F2;
+.menu__img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .menu__text {
@@ -537,29 +551,44 @@ hr {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 5% 5% 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F2F2F2;
 }
 
-.menu__text div {
-  width: 40%;
+.menu__text .menu__text__section {
+  width: 30%;
+  margin: 0;
   margin-left: 10%;
-  margin-bottom: 5%;
   position: relative;
 }
 
-.menu__text div i {
+.menu__text .menu__text__section i {
   position: absolute;
   font-size: 1.5rem;
   color: #333333;
   left: -50px;
 }
 
-.menu__text div h4 {
+.menu__text .menu__text__section h4 {
   font-size: 0.68rem;
 }
 
-.menu__text div p {
+.menu__text .menu__text__section p {
   color: #999999;
+  font-size: 0.55rem;
+}
+
+.menu__text .section__top {
+  margin-top: 10%;
+}
+
+.menu__text .section__bottom {
+  margin-bottom: 10%;
 }
 
 .restaurants__wrapper {
@@ -620,10 +649,10 @@ hr {
 }
 
 .reviews__wrapper p::before {
+  font-size: 1.85rem;
+  font-weight: 900;
   font-family: "Font Awesome 5 Free";
   content: "\f10d";
-  font-size: 37px;
-  font-weight: 900;
   color: #EEF6D1;
   position: absolute;
   top: -15px;
@@ -632,10 +661,10 @@ hr {
 }
 
 .reviews__wrapper p::after {
+  font-size: 1.85rem;
+  font-weight: 900;
   font-family: "Font Awesome 5 Free";
   content: "\f10e";
-  font-size: 37px;
-  font-weight: 900;
   color: #EEF6D1;
   position: absolute;
   bottom: 70px;
@@ -670,11 +699,11 @@ hr {
 }
 
 .blog__wrapper h5 {
+  font-size: 0.6rem;
+  font-weight: 600;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   color: #2E2E2E;
-  font-size: 0.6rem;
-  font-weight: 600;
 }
 
 .main__blog__post {
@@ -821,21 +850,34 @@ hr {
   margin-left: 2.5%;
   background-color: #EFEFEF;
   padding: 15px;
+  position: relative;
+}
+
+.post__comments .comment__text::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #EFEFEF;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: -7px;
+  top: 10px;
 }
 
 .post__comments h6 {
+  font-size: 0.58rem;
+  font-weight: 600;
   margin: 0;
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 0.58rem;
   color: #2E2E2E;
   padding-bottom: 4px;
 }
 
 .post__comments h6 span {
-  font-family: "Lora", serif;
-  font-weight: 400;
   font-size: 0.55rem;
+  font-weight: 400;
+  font-family: "Lora", serif;
 }
 
 .post__comments p {
@@ -846,9 +888,9 @@ hr {
 }
 
 .post__comments .comment__timestamp {
-  font-family: "Raleway", sans-serif;
   font-size: 0.5rem;
   font-weight: 600;
+  font-family: "Raleway", sans-serif;
   padding-top: 3px;
 }
 
@@ -873,12 +915,12 @@ hr {
 }
 
 .comment__form form input {
+  border: 2px solid #F2F2F2;
+  font-family: "Lora", sans-serif;
+  font-size: 0.58rem;
   width: 32%;
   margin-right: 2%;
   margin-bottom: 15px;
-  border: 2px solid #F2F2F2;
-  font-family: "Lora", serif;
-  font-size: 0.58rem;
   padding: 10px;
 }
 
@@ -887,9 +929,9 @@ hr {
 }
 
 .comment__form form textarea {
+  resize: none;
   width: 100%;
   height: 150px;
-  resize: none;
   border: 2px solid #F2F2F2;
   font-family: "Lora", serif;
   font-size: 0.58rem;
@@ -900,13 +942,17 @@ hr {
 .comment__form form button {
   background-color: #64A604;
   color: #F6F6F6;
+  font-size: 0.6rem;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-size: 0.6rem;
   font-weight: 600;
   padding: 15px 30px 15px 20px;
+}
+
+.contact__main {
+  position: relative;
 }
 
 .contact__main h2 {
@@ -917,8 +963,9 @@ hr {
 }
 
 .contact__main img {
-  width: 100%;
-  height: 500px;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
   margin-bottom: -7px;
 }
 
@@ -933,7 +980,7 @@ hr {
 
 .contact__form {
   width: 68%;
-  margin-right: 2%;
+  margin-right: 0;
 }
 
 .contact__form .contact__page__form {
@@ -946,6 +993,9 @@ hr {
 
 .contact__form input,
 .contact__form textarea {
+  border: none;
+  font-family: "Lora", sans-serif;
+  font-size: 0.58rem;
   border: none;
   background-color: #F2F2F2;
   font-family: "Lora", serif;
@@ -977,21 +1027,22 @@ hr {
 .contact__form button {
   background-color: white;
   color: #64A604;
+  font-size: 0.58rem;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  font-size: 0.58rem;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
 
 .contact__details {
-  width: 27%;
+  width: 30%;
   margin-left: 3%;
   background-color: #F2F2F2;
   position: relative;
   padding-bottom: 40px;
+  padding-left: 2%;
 }
 
 .contact__details h3 {
@@ -1028,13 +1079,202 @@ hr {
   line-height: 2.5;
 }
 
-.contact__details::after {
+.contact__main::after {
   content: "";
   position: absolute;
   height: 100%;
-  width: 233%;
+  width: 20vw;
   background-color: #F2F2F2;
-  top: 0px;
-  left: -25px;
+  top: 0;
+  right: 0;
   z-index: -1;
+}
+
+@media (max-width: 1325px) {
+  .header__index {
+    height: 90vh;
+  }
+  .menu__text .menu__text__section {
+    width: 40%;
+    margin-left: 5%;
+  }
+  .menu__text .menu__text__section i {
+    font-size: 1rem;
+    left: -35px;
+  }
+  .footer__wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .recipes__text,
+  .recipes__img,
+  .menu__img,
+  .menu__text {
+    width: 80vw;
+    margin: 5vw auto;
+  }
+  .recipes__img {
+    margin-top: 10vw;
+  }
+  .menu__text {
+    margin-bottom: 0;
+  }
+  .main__recipes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .main__menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .restaurants__wrapper {
+    width: 100vw;
+  }
+  .restaurants__wrapper p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blog__wrapper,
+  .contact__wrapper {
+    width: 80%;
+  }
+  .footer__contact__info,
+  .footer__blog__posts,
+  .footer__subscribe {
+    width: 27%;
+    margin: 0 3%;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__index,
+  .header__blog,
+  .header__contact {
+    height: 60vh;
+  }
+  ul {
+    display: none;
+  }
+  .burger__menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .menu__text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__text .menu__text__section {
+    width: 70%;
+  }
+  .menu__text .section__no__margin {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .main__gallery img {
+    width: 50%;
+  }
+  .author__bio img {
+    width: 30%;
+  }
+  .author__bio .bio__text {
+    width: 67%;
+  }
+  .footer__wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .reviews__wrapper {
+    padding: 80px 0 0px;
+  }
+  .reviews__wrapper .fas {
+    display: none;
+  }
+  .related__posts__photos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .related__posts__photos .related__post {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .comment__form form input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .contact__details {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    padding-right: 2%;
+  }
+  .contact__main::after {
+    background-color: transparent;
+  }
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__contact__info,
+  .footer__blog__posts,
+  .footer__subscribe {
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 570px) {
+  .main__gallery img {
+    width: 100%;
+  }
+  .author__bio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .author__bio img {
+    width: 80%;
+    margin: 10px auto 40px;
+  }
+  .author__bio .bio__text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact__form input[name="name"],
+  .contact__form input[name="email"] {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
