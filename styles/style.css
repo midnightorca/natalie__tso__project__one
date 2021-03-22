@@ -1134,7 +1134,7 @@ hr {
             flex-direction: column;
   }
   .restaurants__wrapper {
-    width: 100vw;
+    width: 80vw;
   }
   .restaurants__wrapper p {
     width: 80%;
@@ -1158,8 +1158,27 @@ hr {
   .header__contact {
     height: 60vh;
   }
-  ul {
+  .header__nav {
+    position: relative;
+  }
+  .header__nav ul {
     display: none;
+  }
+  .header__nav ul.burger__nav {
+    position: absolute;
+    display: block;
+    top: -200px;
+    overflow: hidden;
+    right: 10px;
+    background-color: white;
+    padding-top: 40px;
+  }
+  .header__nav ul.burger__nav li {
+    display: block;
+    padding: 5px 40px 5px 10px;
+  }
+  .header__nav ul.burger__nav li a {
+    font-size: 1rem;
   }
   .burger__menu {
     display: block;
